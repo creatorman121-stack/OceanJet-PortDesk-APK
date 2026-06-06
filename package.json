@@ -1,0 +1,21 @@
+{
+  "name": "oceanjet-portdesk-v137-season8",
+  "version": "1.37.0",
+  "description": "OceanJet PortDesk V137 Season 8 Admin Remote Config Command with offline cache and Android storage bridge",
+  "private": true,
+  "scripts": {
+    "cap:init": "npx cap init OceanJetPortDesk com.oceanjet.portdesk --web-dir .",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "cap:open": "npx cap open android",
+    "cap:copy": "npx cap copy android"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/cli": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/filesystem": "latest",
+    "@capacitor/share": "latest"
+  },
+  "devDependencies": {}
+}
